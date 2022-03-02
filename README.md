@@ -1,3 +1,11 @@
+<h1 align="center" style="border-botom: none">
+  <b>
+    🐍 Binomial tree pricing model 🐍     
+  </b>
+</h1>
+
+
+
 ## Problem
 A simple and fast model to price an European option with simple assumptions
 
