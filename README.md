@@ -5,20 +5,19 @@
 </h1>
 
 
-
 ## Problem
 A simple and fast model to price an European option with simple assumptions
 
 ## Solution
 Binomial asst pricing model 
 Inputs:
--  N ... # of time intervals
--  T ... time to maturity
--  S_0 ... initial stock price
--  sigma ... volatility
--  r ... risk-free interest rate
--  K ... strike price
--  isCall ... is the option a call option (or a Put option if false)
+-  `N` ... # of time intervals
+-  `T` ... time to maturity
+-  `S_0` ... initial stock price
+-  `sigma` ... volatility
+-  `r` ... risk-free interest rate
+-  `K` ... strike price
+-  `isCall` ... is the option a call option (or a Put option if false)
 
 ## Getting started
 Assuming that we are interested in an European call option that matures in 5 years. The pricing is done monthly so the number of time intervals is 5*12 months = 60.
